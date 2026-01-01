@@ -467,4 +467,4 @@ class Worker(object):
             return False
 
     def _is_finished_one_comm_round(self):
-        return True if self.conf.epoch_ >= self.conf.local_n_epochs else False
+        return True if self.conf.epoch_ >= self.conf.local_n_epochs else False 

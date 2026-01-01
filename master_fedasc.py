@@ -201,4 +201,4 @@ def compute_fedavg_weights_from_deformation(client_deformations, temperature=1.0
 	
 	return {
 		client: weight for client, weight in zip(clients, normalized_weights)
-	}
+	} 
